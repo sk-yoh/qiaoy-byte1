@@ -44,21 +44,44 @@
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-	<h1>Qiao | Data assignment byte 1</h1>
-        <p>These are maps about US poverty rates and Dangerous city rank.<br> We can figure out sort of relation ship between them.</p>
+	<h1>Qiao | Data byte 1</h1>
+	<h2>Question: Does the poverty rate of one area affect the crime rate in this area?</h2>
+        <p>These are maps about US poverty rates and Dangerous city rank. We can figure out sort of relation ship between them.</p>
       </div>
 	<h2>Poverty Rates in US</h2>
-		<p>Highest:Red-----Lowest:Green</p>
+		<p style="color:red">Highest:Red</p>
+		<p style="color:green">Lowest:Green</p>
 
-<iframe width="1000" height="300" scrolling="no" frameborder="no" 
+<iframe width="900" height="300" scrolling="no" frameborder="no" 
 	src="https://fusiontables.google.com/embedviz?q=select+col0%3E%3E1+from+1Bl4h3wea-IV86dJDp72cZQ1iWUwDPxSg57NYhdft&amp;viz=MAP&amp;h=false&amp;lat=36.543342627066636&amp;lng=-99.35240374999995&amp;t=1&amp;z=4&amp;l=col0%3E%3E1&amp;y=2&amp;tmplt=2&amp;hml=KML"></iframe>
 
 	<h2>Most Dangerous Cities</h2>
-		<p>Most dangerous:Red--Yellow--Blue--Least dangerous:Green</p>
-<iframe width="1000" height="300" scrolling="no" frameborder="no" 
+		<p style="color:red">Most dangerous:Red</p>
+		<p>Middle range: Yellow--Blue</p>
+		<p style="color:green">Least dangerous:Green</p>
+<iframe width="900" height="300" scrolling="no" frameborder="no" 
 src="https://fusiontables.google.com/embedviz?q=select+col1+from+1Y6OihOypMolOPO-k5w0DK0XXXJFGtkRtUPiXhylX&amp;viz=MAP&amp;h=false&amp;lat=36.715694827017956&amp;lng=-91.93882836249998&amp;t=1&amp;z=4&amp;l=col1&amp;y=2&amp;tmplt=3&amp;hml=GEOCODABLE"></iframe>
 
       </div> <!-- /page-header -->
+      <div class="container theme-showcase" role="main">
+    <div class="jumbotron">
+      	<h2>My answer</h2>
+      	<p>There is indeed relevance between poverty 
+      	rate and crime rate. For example, region of 
+      	highest poverty rate like Michigan does contain 
+      	couples of most dangerous cities there.</p>
+      	<h2>Reflection and Further thoughts</h2>
+      	<p>1.Dataset: the poverty rate is calculated on average by state, 
+      	which can not precisely reflect the poverty rate of a small city or town.
+    In New york state, poverty rate distributes unevenly throughout the state.
+    <br>2. Metrics: What metric do they use to rank a dangerous city?
+    Is that mostly associated with crime?
+    I was not able to find the dataset of exact crime rate across the states and thus I use this as a substitution.
+ <br>3.Time range: These 2 maps can only demonstrate the relationship at a certain time.
+    With deeper study, it should contain the data through a relatively long period of time.          	
+    </p>
+    </div>
+      </div>
     </div> <!-- /container -->
 
 
